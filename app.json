@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "PokedexApp",
+    "slug": "teste",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "android"
+    ],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/Pokeball.png",
+    "splash": {
+      "image": "./assets/Pokeball.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.softeam.pokedexApp"
+    }
+  }
+}
