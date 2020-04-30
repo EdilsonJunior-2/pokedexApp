@@ -72,7 +72,9 @@ export default class pokemon extends Component {
                             <ScrollView style={styles.scrollMoves}>
                                 <View style={styles.moveList}>
                                     {this.state.moves.map(move => (
-                                        <Text style={styles.moveName}>
+                                        <Text 
+                                        style={styles.moveName}
+                                        key={move}>
                                             {move}
                                         </Text>
                                     ))}

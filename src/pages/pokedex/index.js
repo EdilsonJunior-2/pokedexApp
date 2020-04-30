@@ -75,6 +75,7 @@ export default class Pokedex extends Component {
                                 {pokemons.map(pokemon => (
                                     <TouchableOpacity
                                         style={styles.pokemonNameTouchable}
+                                        key={pokemon.url}
                                         onPress={() => {
                                             this.props.navigation.navigate("Pokemon",
                                                 {

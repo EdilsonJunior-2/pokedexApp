@@ -40,6 +40,7 @@ export default class Types extends Component {
                                 {types.map(type => (
                                     <TouchableOpacity
                                         style={styles.typeNameTouchable}
+                                        key={type.url}
                                         onPress={() => {
                                             this.props.navigation.navigate("SpecificType",
                                                 {
